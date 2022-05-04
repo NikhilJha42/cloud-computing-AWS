@@ -1,5 +1,7 @@
 # Launching new instance on AWS using EC2:
 
+![How to launch an instance using AWS EC2](./Launching instance on AWS.png)
+
 ### Starting Up:
 - file.pem - move to .ssh folder in your machine.
 Run `chmod 400 file.pem` to ensure the key is not publically viewable.
