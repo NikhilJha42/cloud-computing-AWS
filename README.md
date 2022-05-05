@@ -8,6 +8,7 @@
 - Amazon: AWS, Microsoft: Azure, Google: GCP, etc.
 - Cloud computing services are responsible for ensuring the security of information in transit.
 - Hybrid: Where confidential information is stored in a local data centre, and public information is deployed on cloud computing.
+- Cloud computing allows you to deploy a product on a global scale in minutes.
 
 ##AWS
 - Regions are the physical data centres for delivering AWS.
