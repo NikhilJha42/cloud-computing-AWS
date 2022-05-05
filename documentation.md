@@ -25,7 +25,7 @@ Run `chmod 400 file.pem` to ensure the key is not publically viewable.
 - Set your tag as Key: `Name`, Value: `group_yourname`.
 - Note: Any untagged instances will be terminated.
 ### Configure Security Group
-- Basic naming convention is to call your security group name and description the same as your tag - i.e., `group_yourname`.
+- Basic naming convention is to call your security group name and description the same as your tag - i.e., `group_yourname_sg`.
 - For standard SSH type, set Source to `My IP`, and add to `my ip` to Description. Make sure Port Range is 22.
 - `Add Rule`: set type to `HTTP` and set Source to `Anywhere`, and add `public` to Description. Port range should default to 80.
 ### Review and Launch
