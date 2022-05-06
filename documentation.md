@@ -47,4 +47,4 @@ Run `chmod 400 file.pem` to ensure the key is not publically viewable.
 
 ## Creating an AMI (Amazon Machine Image)
 
-![Setting up an AMI on AWS](./'AMI set up.png')
+![Setting up an AMI on AWS](./AMI_set_up.png)
