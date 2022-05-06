@@ -1,4 +1,6 @@
-# Launching new instance on AWS using EC2:
+#Documentation
+
+## Launching new instance on AWS using EC2:
 
 ![How to launch an instance using AWS EC2](./Launching_instance_on_AWS.png)
 
@@ -42,3 +44,7 @@ Run `chmod 400 file.pem` to ensure the key is not publically viewable.
 - Run `sudo apt update -y`, `sudo apt upgrade -y`.
 - Run 'sudo apt install nginx -y`.
 - To check this, return to Connect page for your instance, and copy the Public DNS (see '4. Connect to your instance under Public DNS'). You should see the nginx welcome page. This is available to anyone with the Public DNS.
+
+## Creating an AMI (Amazon Machine Image)
+
+![Setting up an AMI on AWS](./'AMI set up.png')
