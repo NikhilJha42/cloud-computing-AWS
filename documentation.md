@@ -70,3 +70,6 @@ An AMI is a blueprint for setting up an EC2 instance, with dependencies and appl
 - Decreases deployment time due to the reduced manual installations.
 - Can safely terminate instances without losing the set-up, reducing running costs.
 - Can choose from a variety of operating systems.
+
+## S3 Bucket
+![S3 Bucket set up](./Setting_up_S3_Bucket.png)
