@@ -28,3 +28,10 @@
 - Better availability. Amazon EC2 Auto Scaling helps ensure that your application always has the right amount of capacity to handle the current traffic demand.
 
 - Better cost management. Amazon EC2 Auto Scaling can dynamically increase and decrease capacity as needed. Because you pay for the EC2 instances you use, you save money by launching instances when they are needed and terminating them when they aren't.
+
+## Creating a launch template for autoscaling group
+- Under Instances tab, select launch templates.
+- Select Ubuntu 18.04 server from free tier.
+- Although formatted differently, the details to be completed up to Advanced Details should be the same as for creating a new EC2 instance.
+- Under advanced details, there is a section called User data. This is a provisioning file.
+- At the top enter `#!/bin/bash`, then place provisioning details (for now just for update, upgrade and the installation/enabling of nginx in here).
