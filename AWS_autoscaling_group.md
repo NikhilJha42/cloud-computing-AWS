@@ -20,3 +20,11 @@
 - Metrics include average CPU utilisation, average number of bytes recieved/sent out on network interfaces, or the average load balancer request count.
 - Simple and step scaling policies use metrics and threshold values that are used to trigger the scaling policy.
 - The difference with step scaling is that the adjustments vary based  on the size of the alarm breach.
+
+## Benefits of ASGs
+
+- Better fault tolerance. Amazon EC2 Auto Scaling can detect when an instance is unhealthy, terminate it, and launch an instance to replace it. You can also configure Amazon EC2 Auto Scaling to use multiple Availability Zones. If one Availability Zone becomes unavailable, Amazon EC2 Auto Scaling can launch instances in another one to compensate.
+
+- Better availability. Amazon EC2 Auto Scaling helps ensure that your application always has the right amount of capacity to handle the current traffic demand.
+
+- Better cost management. Amazon EC2 Auto Scaling can dynamically increase and decrease capacity as needed. Because you pay for the EC2 instances you use, you save money by launching instances when they are needed and terminating them when they aren't.
