@@ -2,7 +2,7 @@
 
 ## Launching new instance on AWS using EC2:
 
-![How to launch an instance using AWS EC2](./Launching_instance_on_AWS.png)
+![How to launch an instance using AWS EC2](../diagrams/Launching_instance_on_AWS.png)
 
 ### Starting Up:
 - file.pem - move to .ssh folder in your machine.
@@ -49,7 +49,7 @@ Run `chmod 400 file.pem` to ensure the key is not publically viewable.
 
 An AMI is a blueprint for setting up an EC2 instance, with dependencies and applications installed.
 
-![Setting up an AMI on AWS](./AMI_set_up.png)
+![Setting up an AMI on AWS](../diagrams/AMI_set_up.png)
 
 ### Building AMI
 
@@ -72,7 +72,7 @@ An AMI is a blueprint for setting up an EC2 instance, with dependencies and appl
 - Can choose from a variety of operating systems.
 
 ## S3 Bucket
-![S3 Bucket set up](./Setting_up_S3_Bucket.png)
+![S3 Bucket set up](../diagrams/Setting_up_S3_Bucket.png)
 
 ### Managing buckets using Python (needs updating)
 - Ensure Python3 and pip are installed.

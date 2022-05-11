@@ -31,7 +31,7 @@
 
 ## Creating a launch template for autoscaling group
 
-![Auto Scaling Diagram](./Auto_Scaling_in_AWS.png)
+![Auto Scaling Diagram](../diagrams/Auto_Scaling_in_AWS.png)
 - Under Instances tab, select launch templates.
 - Select Ubuntu 18.04 server from free tier.
 - Although formatted differently, the details to be completed up to Advanced Details should be the same as for creating a new EC2 instance.
