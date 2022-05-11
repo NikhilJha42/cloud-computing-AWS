@@ -1,4 +1,4 @@
-![VPC Set Up](../diagrams/security-diagram.png)
+![VPC Set Up](../diagrams/VPC_set_up.png)
 ## Networking and VPC Architecture
 - Include diagram
 - Push to GitHub and share the repo link in chat at 10:30
@@ -46,10 +46,12 @@
 
 ### Creating an Internet Gateway
 - Navigate to the Internet Gateways Tab
-- Create internet gateway
+- Create an internet gateway
 - Standard naming convention `group-yourname-ig-public`
 - It is important to state in the name that this is public, to distinguish from private gateways.
 - Create the internet gateway.
+- You then need to navigate to the Internet Gateways tab, select the IG you just created and under Actions attach to a VPC.
+- Attach it to the VPC you created.
 
 ### Creating a subnet
 
@@ -58,5 +60,15 @@
 - Select the VCP you made earlier.
 - Standard naming convention `group-yourname-sb-testing`
 - `No preference` for availability zone.
-- Add your CIDR.
+- Add your subnet CIDR block (this should be different from above).
 - Create subnet.
+
+### Creating a Route Table
+
+- Navigate to Route Tables Tab, name it with standard naming convention with `rt` suffix and select the VPC you created earlier.
+- Select the VPC you created earlier.
+- Create route table.
+- Select your route table, scroll down and then select edit routes.
+- Add route, set the destination to 0.0.0.0/0 and the target as the internet gateway you created earlier.
+- Return to the route table, scroll down and select subnet associations, and then Edit subnet association under explicit association.
+- You need to select the appropriate subnet, and save the association.
