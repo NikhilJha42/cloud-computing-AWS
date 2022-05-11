@@ -1,4 +1,4 @@
-![](../diagrams/secuirty-diagram.png)
+![VPC Set Up](../diagrams/security-diagram.png)
 ## Networking and VPC Architecture
 - Include diagram
 - Push to GitHub and share the repo link in chat at 10:30
