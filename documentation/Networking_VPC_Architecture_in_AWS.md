@@ -1,4 +1,4 @@
-![VPC Set Up](../diagrams/VPC_set_up.png)
+![VPC Set Up](../diagrams/VPC_Set_Up.png)
 ## Networking and VPC Architecture
 - Include diagram
 - Push to GitHub and share the repo link in chat at 10:30
