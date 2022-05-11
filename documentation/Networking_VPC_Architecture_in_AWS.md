@@ -35,3 +35,28 @@
 - Network Access Control List
 - Acts as a firewall for incoming traffic in and out of sunet/s.
 - Similar to a security group in some ways, but has many differences.
+
+## Creating and using Amazon VPC
+
+### Creating VPC
+- Navigate to the VPC console on AWS, and the Your VPCs tab.
+- Standard naming convention: `group-yourname-vpc`.
+- Set the CIDR to 10.0.0.0/16.
+- Create the VPC.
+
+### Creating an Internet Gateway
+- Navigate to the Internet Gateways Tab
+- Create internet gateway
+- Standard naming convention `group-yourname-ig-public`
+- It is important to state in the name that this is public, to distinguish from private gateways.
+- Create the internet gateway.
+
+### Creating a subnet
+
+- Navigate to Subnets Tab.
+- Create Subnet
+- Select the VCP you made earlier.
+- Standard naming convention `group-yourname-sb-testing`
+- `No preference` for availability zone.
+- Add your CIDR.
+- Create subnet.
