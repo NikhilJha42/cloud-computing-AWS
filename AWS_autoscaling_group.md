@@ -31,9 +31,29 @@
 
 ## Creating a launch template for autoscaling group
 
-![Auto Scaling Diagram](./Auto_Scaling_inAWS.png)
+![Auto Scaling Diagram](./Auto_Scaling_in_AWS.png)
 - Under Instances tab, select launch templates.
 - Select Ubuntu 18.04 server from free tier.
 - Although formatted differently, the details to be completed up to Advanced Details should be the same as for creating a new EC2 instance.
 - Under advanced details, there is a section called User data. This is a provisioning file.
 - At the top enter `#!/bin/bash`, then place provisioning details (for now just for update, upgrade and the installation/enabling of nginx in here).
+
+
+## Monitoring
+- Open the `AWS CloudWatch` console.
+- Choose `Alarms`, then `create Alarm`.
+- Select the metric you wish to use
+- Fill in Name, Description, Threshold and Time values
+- Choose `In-alarm` as the alarm state
+- Either create a new topic (be sure to include email addresses) or select one you've used previously.
+- Don't worry about the alarm action - you will this in a minute.
+- Hit `Continue`, review and then `Create Alarm`.
+- Navigate to the auto-scaling group- if you don't have a simple or step monitoring policy, create one.
+- 
+- At this point, add the alarm you created.
+- If you already had a simple or step policy, you can edit this to add the alarm you just created.
+- To test the monitoring system, enter an instance/instances and run an infinite loop, e.g.: `while :`
+`do`
+`echo "Running..."`
+`done`
+- For example, if you select the metric to be average CPUUtilisation, with a threshold of 50%, and you have a minimum of 2 instances, you will need to run a loop in both to ensure the metric breaches the threshold.
