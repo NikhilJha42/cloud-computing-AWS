@@ -25,3 +25,7 @@
 
 ## Documentation
 - [Creating and Using EC2 Instances](./documentation/creating_and_using_EC2_instances.md)
+- [Creating and Using AMIs](./documentation/creating_and_using_AMIs.md)
+- [Using S3](./documentation/setting_up_S3_bucket.md)
+- [Auto Scaling](./documentation/AWS_autoscaling_group.md)
+- [Amazon Virtual Private Cloud (VPC)](./documentation/Networking_VPC_Architecture_in_AWS.md)
