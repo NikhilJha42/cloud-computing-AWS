@@ -22,3 +22,6 @@
 - AWS EC2 instances should be turned off/stopped/terminated by 18:00 every day. With permission, you may use it until 20:00.
 - Only use Ireland - eu-west-1/a/b/c
 - AWS keys must NOT be shared with anyone, such as on public cloud or platforms, GitHub etc.
+
+## Documentation
+- [Creating and Using EC2 Instances](./documentation/creating_and_using_EC2_instances.md)

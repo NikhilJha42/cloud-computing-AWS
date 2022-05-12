@@ -1,8 +1,5 @@
 ![VPC Set Up](../diagrams/VPC_Set_Up_V3.png)
 ## Networking and VPC Architecture
-- Include diagram
-- Push to GitHub and share the repo link in chat at 10:30
-
 ### VPC
  - Amazon Virtual Private Cloud (VPC) lets you launch an isolated virtual network that you define. 
 - You can decide IP address range, creation of subnets, the configuration of route tables and network gateways.
