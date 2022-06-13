@@ -12,7 +12,7 @@
 - Hybrid: Where confidential information is stored in a local data centre, and public information is deployed on cloud computing.
 - Cloud computing allows you to deploy a product on a global scale in minutes.
 
-##AWS
+## AWS
 - Regions are the physical data centres for delivering AWS.
 - A region contains at least two availability zones, as a general rule use the closest to your current location. For the academy, use London.
 - The reason for having multiple availability zones is to protect against unexpected events - if an app is deployed in 2 availability zones if the first, primary one fails or is compromised the traffic for the app is redirected to the second while repairs are made.
