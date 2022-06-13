@@ -1,5 +1,7 @@
 # eng110_cloud_computing_AWS
 
+![AWS logo](./aws-logo-1024x626.png)
+
 ## Why use cloud computing?
 - Allows organisations to deliver services including servers, storage, databases, networking, software, analytics, and intelligence over the Internet.
 - Increased flexibility.
