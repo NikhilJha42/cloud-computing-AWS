@@ -1,4 +1,4 @@
-# eng110_cloud_computing_AWS
+# Coud Computing AWS
 
 ![AWS logo](./aws-logo-1024x626.png)
 
