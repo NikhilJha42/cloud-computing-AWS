@@ -46,7 +46,7 @@
 - Fill in Name, Description, Threshold and Time values
 - Choose `In-alarm` as the alarm state
 - Either create a new topic (be sure to include email addresses) or select one you've used previously.
-- Don't worry about the alarm action - you will this in a minute.
+- Don't worry about the alarm action - you will deal with this in a minute.
 - Hit `Continue`, review and then `Create Alarm`.
 - Navigate to the auto-scaling group- if you don't have a simple or step monitoring policy, create one.
 - 
